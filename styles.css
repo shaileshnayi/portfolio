@@ -131,3 +131,27 @@ p {
   background: #7bf2e0;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 900px){
+  h1{
+    font-size: 40px;
+  }
+  .top-contanier{
+    width: 100%;
+  }
+  .bottom-container{
+    width: 100%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+    width: 50px;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 30px;
+    bottom: 280px;
+    width: 50px;
+  }
+}
