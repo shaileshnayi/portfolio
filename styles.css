@@ -34,29 +34,27 @@ hr {
   border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 70px auto;
 }
 .top-contanier {
   background: linear-gradient(to right, #094282, #6d00ff 70%, #6d00ff 70%);
   position: relative;
   padding-top: 100px;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 .bottom-container {
   background: linear-gradient(to right, #094282, #6d00ff 70%, #6d00ff 70%);
-  margin-top: 100px;
-  padding: 10px 0 10px;
+  margin-top: 50px;
+  padding-bottom: 25px;
 }
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  left: 300px;
+  bottom: 330px;
 }
 .top-cloud {
   position: absolute;
-  right: 300px;
-  bottom: 500px;
+  right: 330px;
+  bottom: 550px;
 }
 .boat {
   width: 50%;
@@ -64,9 +62,27 @@ hr {
   top: 5px;
 }
 .profile-pic {
-  padding-top: 30px;
+  padding-top: 25px;
   width: 15%;
   margin: 10px 0 0;
+}
+
+.text1 {
+  width: 60%;
+  margin: 10px auto;
+  line-height: 2;
+}
+.text2 {
+  width: 60%;
+  margin: 30px auto;
+  line-height: 1;
+}
+div .skill-row p{
+  text-align: justify;
+}
+p {
+  line-height: 2;
+  color: #fff;
 }
 .skill-row {
   width: 50%;
@@ -84,26 +100,6 @@ hr {
   float: right;
   margin-left: 30px;
 }
-.text1 {
-  width: 60%;
-  margin: 15px auto 40px auto;
-  line-height: 2;
-}
-.text2 {
-  width: 60%;
-  margin: 30px auto 30px auto;
-  line-height: 1;
-}
-.copyright-massage {
-  color: #ffffff;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-p {
-  line-height: 2;
-  color: #fff;
-}
 
 .asking {
   font-size: 30px;
@@ -115,6 +111,11 @@ p {
 .fa-brands {
   color: #ff0000;
   width: 15px;
+  padding-top: 15px;
+}
+.copyright-massage {
+  color: #ffffff;
+  font-size: 0.75rem;
 }
 
 .btn {
@@ -132,14 +133,17 @@ p {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 900px){
-  h1{
+@media only screen and (max-width: 900px) {
+  h1 {
     font-size: 40px;
   }
-  .top-contanier{
+  h3{
+    margin: 10px 10px;
+  }
+  .top-contanier {
     width: 100%;
   }
-  .bottom-container{
+  .bottom-container {
     width: 100%;
   }
   .bottom-cloud {
@@ -148,10 +152,13 @@ p {
     bottom: 150px;
     width: 50px;
   }
-  .top-cloud{
+  .top-cloud {
     position: absolute;
     right: 30px;
     bottom: 280px;
     width: 50px;
+  }
+  .text1 {
+    text-align: justify;
   }
 }
