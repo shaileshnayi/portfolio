@@ -77,28 +77,44 @@ hr {
   width: 60%;
   margin: 30px auto;
   line-height: 1;
-  text-align: center;
-}
-div .skill-row p{
-  text-align: justify;
 }
 p {
   line-height: 2;
   color: #fff;
 }
-.skill-row {
-  width: 50%;
-  margin: 50px auto 100px auto;
+.skill-section{
+  width: 60%;
+  margin: 50px auto;
   text-align: left;
   line-height: 2;
 }
+.skill-p-1{
+  text-align: justify;
+  width: 115%;
+}
+.skill-section-2{
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-p-2{
+  text-align: justify;
+  width: 115%;
+}
+.my-skii-h2{
+  font-size: 2.5rem;
+  margin: 15px auto 5px;
+}
 .cat {
-  width: 25%;
+  width: 20%;
+  padding-top: 15px;
   float: left;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .monkey {
   width: 25%;
+  padding-top: 15px;
   float: right;
   margin-left: 30px;
 }
@@ -140,7 +156,8 @@ p {
     font-size: 40px;
   }
   h3{
-    margin: 20px 20px;
+    margin: 20px auto;
+
   }
   .top-contanier {
     width: 100%;
@@ -160,9 +177,15 @@ p {
     bottom: 280px;
     width: 50px;
   }
-  text2 {
-    margin: 20px auto;
-    line-height: 2;
+  .text1{
+    width: 80%;
     text-align: justify;
+  }
+  .text2{
+    line-height: 2;
+  }
+  .skill-section-2{
+    width: 60%;
+    margin: 20px auto;
   }
 }
