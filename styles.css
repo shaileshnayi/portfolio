@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: #000;
+  font-size: 80px;
+  margin-bottom: 0;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #326ffc;
+  font-family: "Merriweather", sans-serif;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 70px auto;
+}
+.top-contanier {
+  background: linear-gradient(to right, #094282, #6d00ff 70%, #6d00ff 70%);
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-container {
+  background: linear-gradient(to right, #094282, #6d00ff 70%, #6d00ff 70%);
+  margin-top: 50px;
+  padding-bottom: 25px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 330px;
+}
+.top-cloud {
+  position: absolute;
+  right: 330px;
+  bottom: 550px;
+}
+.boat {
+  width: 50%;
+  position: relative;
+  top: 5px;
+}
+.profile-pic {
+  padding-top: 25px;
+  width: 15%;
+  margin: 10px 0 0;
+}
+
+.text1 {
+  width: 60%;
+  margin: 10px auto;
+  line-height: 2;
+  text-align: justify;
+}
+.text2 {
+  width: 60%;
+  margin: 30px auto;
+  line-height: 1;
+}
+p {
+  line-height: 2;
+  color: #fff;
+}
+.skill-section{
+  width: 60%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-p-1{
+  text-align: justify;
+  width: 115%;
+}
+.skill-section-2{
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-p-2{
+  text-align: justify;
+  width: 115%;
+}
+.my-skii-h2{
+  font-size: 2.5rem;
+  margin: 15px auto 5px;
+}
+.cat {
+  width: 20%;
+  padding-top: 15px;
+  float: left;
+  margin-right: 20px;
+}
+.monkey {
+  width: 25%;
+  padding-top: 15px;
+  float: right;
+  margin-left: 30px;
+}
+
+.asking {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.new {
+  background: #000;
+}
+.fa-brands {
+  color: #ff0000;
+  width: 15px;
+  padding-top: 15px;
+}
+.copyright-massage {
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+
+.btn {
+  background: #05e8e4;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7bf2e0;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3{
+    margin: 20px auto;
+
+  }
+  .top-contanier {
+    width: 100%;
+  }
+  .bottom-container {
+    width: 100%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+    width: 50px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 30px;
+    bottom: 280px;
+    width: 50px;
+  }
+  .text1{
+    width: 80%;
+    text-align: justify;
+  }
+  .text2{
+    line-height: 2;
+  }
+  .skill-section-2{
+    width: 60%;
+    margin: 20px auto;
+  }
+}
